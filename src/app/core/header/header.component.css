@@ -60,3 +60,106 @@
 .header2-inner {
     display: flex;
 }
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.email-area {
+    display: flex;
+    align-items: center;
+    width: 22%;
+}
+.pagbank-area {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+.logo {
+    width: 25%;
+}
+.email {
+    margin-right: 17px;
+}
+.email a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    background-color: #cb0003;
+    padding: 13px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+.email a:hover {
+    background-color: #e06668;
+}
+.email-desc a {
+    text-decoration: none;
+    font-size: 0.73rem;
+    color: #000;
+}
+.email-desc a:hover {
+    color: #b0b2b3;
+}
+.location-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+}
+.location-area a {
+    text-decoration: none;
+    color: #000;
+}
+.location-area a:hover {
+    color: #929292;
+}
+.location {
+    display: flex;
+    align-items: center;
+}
+.location small {
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.search {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin-left: 5px;
+}
+.celsius {
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+.red-span {
+    color: #d52b32;
+}
+.blue-span {
+    color: #62c7f2;
+}
+.search-on-uol {
+    display: flex;
+    align-items: center;
+}
+.search-on-uol input {
+    width: 85%;
+    border: 0;
+    background-color: #f2f2f2;
+    outline: none;
+    padding: 13px;
+    border-radius: 5px;
+}
+.pb-top {
+    margin-bottom: 5px;
+}
+.pb-bottom {
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    font-size: 0.7rem;
+}
+.pagbank-area a {
+    text-decoration: none;
+}
+.pb-bottom span {
+    color: #aed560;
+}
