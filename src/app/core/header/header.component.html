@@ -47,17 +47,24 @@
                         </a>
                     </div>
                     <div class="location-area">
+                        <div style="display: flex;">
+                            <a href=""><div class="location"><small>São Paulo</small></div></a>
+                            <div class="search" (click)="showModal()"></div>
+                        </div>
                         <a href="">
-                            <div class="location">
-                                <small>São Paulo</small><div class="search"></div>
-                            </div>
                             <div class="celsius">
                                 <span class="red-span">15ºC</span><span class="blue-span"> 6ºC</span>
                             </div>
                         </a>
+                        <div class="search-expanded" #searchExpanded>
+                            <input type="text" placeholder="Busque cidades no Brasil">
+                            <div class="close-modal" 
+                            style="color: red; position: relative; top: -30px; left: 180px;cursor: pointer;" (click)="closeModal()">x</div>
+                        </div>
                     </div>
                     <div class="search-on-uol"><input type="text" placeholder="BUSCAR NO UOL"></div>
                 </div>
             </div>
         </div>
     </header>
+    <div class="modal" #modal></div>

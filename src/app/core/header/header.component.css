@@ -76,10 +76,10 @@
     margin: 0 40px;
 }
 .logo {
-    width: 25%;
+    width: 20%;
 }
 .email {
-    margin-right: 17px;
+    margin-right: 22px;
 }
 .email a {
     font-size: 0.75rem;
@@ -126,6 +126,7 @@
     height: 15px;
     background-color: red;
     margin-left: 5px;
+    cursor: pointer;
 }
 .celsius {
     font-size: 0.7rem;
@@ -162,4 +163,26 @@
 }
 .pb-bottom span {
     color: #aed560;
+}
+.modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.search-expanded {
+    display: none;
+    position: relative;
+    top: -35px;
+    z-index: 2;
+}
+.search-expanded input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #ccc;
 }
