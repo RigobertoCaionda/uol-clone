@@ -16,6 +16,7 @@
     background-color: #7331ce;
     margin-right: 5px;
     margin-bottom: 5px;
+    overflow: hidden;
 }
 .advert-item:last-child {
     margin-right: 0;
@@ -24,4 +25,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all ease-in-out 0.3s;
+}
+.advert-item img:hover {
+    transform: scale(1.1);
 }

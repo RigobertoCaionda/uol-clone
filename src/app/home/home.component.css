@@ -1,0 +1,13 @@
+.top-info {
+    display: flex;
+    margin-top: 40px;
+}
+.top-info-left-side {
+    width: 60%;
+    background-color: rgb(45, 45, 102);
+    height: 300px; /*Temporario*/
+}
+.top-info-right-side {
+    width: 40%;
+    background-color: rgb(27, 66, 27);
+}
