@@ -54,8 +54,13 @@
     color: #000 !important;
     font-size: 0.60rem !important;
 }
+
 .header2 {
     margin-top: 20px;
+}
+.header2 .container {
+    border-bottom: 2px solid #353535;
+    padding-bottom: 35px;
 }
 .header2-inner {
     display: flex;
@@ -122,9 +127,6 @@
     font-size: 0.7rem;
 }
 .search {
-    width: 15px;
-    height: 15px;
-    background-color: red;
     margin-left: 5px;
     cursor: pointer;
 }
@@ -185,4 +187,92 @@
     border-radius: 5px;
     outline: 0;
     border: 1px solid #ccc;
+}
+.close-modal {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    background-color: red;
+    color: #fff; 
+    position: relative;
+    top: -30px; 
+    left: 170px;
+    cursor: pointer;
+}
+
+.header3 .header-menu {
+    border-bottom: 1px solid #dfdfdf;
+}
+.header3 .header-menu ul {
+    display: flex;
+    list-style: none;
+}
+.header3 .header-menu ul li {
+    width: 100%;
+    border-top: 5px solid #fff;
+}
+.header3 .header-menu ul li:last-child {
+    margin-right: 0;
+}
+.header3 .header-menu ul li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #353535;
+    font-size: 0.71rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header3 .header-menu ul li:hover .submenu {
+    display: flex;
+}
+.header3 .submenu {
+    display: none;
+    position: absolute;
+    top: 208px;
+    padding: 15px 25px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+}
+.submenu-left {
+    width: 100%;
+}
+.submenu-left a {
+    font-size: 1rem !important;
+    padding: 7px 0 !important;
+}
+.submenu-left a:hover {
+    color: #cb0033 !important;
+}
+.submenu-right {
+    width: 70%;
+}
+.submenu-right-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.submenu-right-f-span {
+    margin-bottom: 10px;
+    color: #d85503;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.submenu-right-s-span {
+    color: #ddd;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.submenu-right-s-span:hover {
+    color: #b6b6b6;
+}
+.contact-info {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.small-span {
+    font-weight: normal;
+    font-size: 0.7rem;
 }

@@ -1,0 +1,150 @@
+    <header>
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="header1">
+                    <div class="header-left">
+                        <nav>
+                            <ul>
+                                <li><a href="">INGRESSO.COM</a></li>
+                                <li><a href="">BATE-PAPO</a></li>
+                                <li><a href="">UOL MEU NEGÓCIO</a></li>
+                                <li><a href="">PASSEI DIRETO</a></li>
+                                <li><a href="">UOL PLAY</a></li>
+                                <li><a href="">PAGSEGURO</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-right">
+                        <nav>
+                            <ul>
+                                <li><a href="">SAC</a></li>
+                                <li><a href="">EMAIL</a></li>
+                                <li><a href="" class="signin" routerLink="/signin">ENTRE</a></li>
+                                <li class="signup"><a routerLink="/signup">ASSINE UOL</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header2">
+            <div class="container">
+                <div class="header2-inner">
+                    <div class="logo" title="UOL - Seu universo online">
+                        <a routerLink="/"><img src="../../../assets/uol-logo.svg" alt="" height="60"></a>
+                    </div>
+                    <div class="email-area">
+                        <div class="email" title="Email"><a href="">EMAIL</a></div>
+                        <div class="email-desc" title="Assine"><a href="">Ainda não tem um email UOL? <span style="font-weight: bold;">Assine</span></a></div>
+                    </div>
+                    <div class="pagbank-area">
+                        <a href="">
+                            <div class="pb-top"><a href=""><img src="../../../assets/pagbank.png" height="15"></a></div>
+                            <div class="pb-bottom">
+                                Dólar<span> 4,983</span>
+                                Euro<span> 5,215</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="location-area">
+                        <div style="display: flex;">
+                            <a href=""><div class="location"><small>São Paulo</small></div></a>
+                            <div class="search" (click)="showModal()" #searchIcon><fa-icon [icon]="faSearch"></fa-icon></div>
+                        </div>
+                        <a href="">
+                            <div class="celsius">
+                                <span class="red-span">15ºC</span><span class="blue-span"> 6ºC</span>
+                            </div>
+                        </a>
+                        <div class="search-expanded" #searchExpanded>
+                            <input type="text" placeholder="Busque cidades no Brasil" id="busque">
+                            <div class="close-modal" (click)="closeModal()">x</div>
+                        </div>
+                    </div>
+                    <div class="search-on-uol"><input type="text" placeholder="BUSCAR NO UOL"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header3">
+            <div class="container">
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li borderColor="#cb0003">
+                                <a>PRODUTOS
+                                    <div class="submenu">
+                                        <div class="submenu-left">
+                                            <a href="">Conteúdo Exclusivo</a>
+                                            <a href="">UOL Mail</a>
+                                            <a href="">UOL Play</a>
+                                            <a href="">NBA</a>
+                                        </div>
+                                        <div class="submenu-right">
+                                            <a href="">
+                                                <div class="submenu-right-item">
+                                                    <span class="submenu-right-f-span">Assine UOL</span>
+                                                    <span class="submenu-right-s-span">Tenha acesso ilimitado ao conteúdo exclusivo e a produtos UOL.</span>
+                                                </div>
+                                            </a>
+                                            <div class="submenu-right-item">
+                                                <span class="submenu-right-f-span" style="font-size: 1.3rem;">Compre pelo chat ou ligue para nós</span>
+                                                <div class="contact-info">
+                                                    <span>4003 6118<br><span class="small-span">CAPITAIS</span></span>
+                                                </div>
+                                                <div class="contact-info">
+                                                    <span>0800 703 3000<br><span class="small-span">DEMAIS LOCALIDADES</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li borderColor="#2e48ff">
+                                <a>
+                                    NOTÍCIAS
+                                    <div class="submenu">
+                                        <div class="submenu-left">
+                                            <a href="">Eleições 2022</a>
+                                            <a href="">Colunas</a>
+                                            <a href="">Coronavírus</a>
+                                            <a href="">Cotidiano</a>
+                                        </div>
+                                        <div class="submenu-left">
+                                            <a href="" style="color: #2e48ff;">Loterias</a>
+                                            <a href="">Mega sena</a>
+                                            <a href="">Quinas</a>
+                                        </div>
+                                        <div class="submenu-left">
+                                            <a href="" style="color: #2e48ff;">Eleições</a>
+                                            <a href="">O radar das Eleições</a>
+                                            <a href="">Sabatina UOL/Folha</a>
+                                        </div>
+                                        <div class="submenu-left">
+                                            <a href="" style="color: #2e48ff;">Podcasts</a>
+                                            <a href="">Baixo Clero</a>
+                                            <a href="">Posse de bola</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li borderColor="#cb0003"><a href="">CARROS</a></li>
+                            <li borderColor="#107270"><a href="">ECONOMIA</a></li>
+                            <li borderColor="#cb0003"><a href="">FOLHA</a></li>
+                            <li borderColor="#f8e71c"><a href="">ESPORTE</a></li>
+                            <li borderColor="#8b00d5"><a href="">SPLASH</a></li>
+                            <li borderColor="#9b2546"><a href="">UNIVERSA</a></li>
+                            <li borderColor="#a9ce88"><a href="">VIVABEM</a></li>
+                            <li borderColor="#7d1afa"><a href="">TILT</a></li>
+                            <li borderColor="#065d83"><a href="">ECOA</a></li>
+                            <li borderColor="#cb0003"><a href="">CANAL UOL</a></li>
+                            <li borderColor="#1a1a1a"><a href="">MOV</a></li>
+                            <li borderColor="#be8e4e"><a href="">NOSSA</a></li>
+                            <li borderColor="#ce623b"><a href="">TAB</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal" #modal></div>

@@ -1,0 +1,2 @@
+// Para instalar o fontawesome: ng add @fortawesome/angular-fontawesome
+// Achar todos icones: https://www.angularjswiki.com/fontawesome/
